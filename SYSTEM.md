@@ -313,7 +313,7 @@ DHCP в этой ветке брал LAN/DHCP параметры из Ralink NVR
 Актуальный прошитый образ проекта описан в [DEVICE.md](DEVICE.md) и [FIRMWARE.md](FIRMWARE.md):
 
 ```text
-dumps\verified\mtd4_airtools_mode_signal_20260923.bin
+dumps\verified\mtd4_airtools_mips_v1.2.0.bin
 ```
 
 Он добавляет WN723N/RTL8188EUS monitor, airtools TCP API и WPA2 management AP `AT`.

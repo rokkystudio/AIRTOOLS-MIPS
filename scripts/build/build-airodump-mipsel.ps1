@@ -1,5 +1,5 @@
 $ErrorActionPreference = 'Stop'
-$root = 'D:\PROJECTS\AIRTOOLS'
+$root = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 & (Join-Path $Root 'scripts\build\prepare-llvm.ps1')
 $clang = Join-Path $root 'toolchain\llvm\mingw64\bin\clang.exe'
 $out = Join-Path $root 'artifacts\binaries\mipsel\airodump_mipsel'

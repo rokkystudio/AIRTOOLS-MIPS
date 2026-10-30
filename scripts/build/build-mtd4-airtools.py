@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-ROOT = Path(r"D:\PROJECTS\AIRTOOLS")
+ROOT = Path(__file__).resolve().parents[2]
 BASE_MTD4 = ROOT / "dumps" / "bases" / "mtd4_connectivity_base_20260916.bin"
 BIN_DIR = ROOT / "artifacts" / "binaries" / "mipsel"
 EXTRACTOR = BIN_DIR / "mtd4_lzma_extract_8188eu_mipsel"

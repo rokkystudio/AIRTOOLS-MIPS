@@ -5,9 +5,9 @@
 ## Текущий рабочий образ
 
 ```text
-path:   dumps\verified\mtd4_airtools_mode_signal_20260923.bin
+path:   dumps\verified\mtd4_airtools_mips_v1.2.0.bin
 size:   3866624
-sha256: 145413bdc96f95bcfe59c814f396ee1f0f45a4d3f8c6a08e37cf44e7de59c6ef
+sha256: 4013eb9415de5082c8c34343f093f50f77b99c2cfd8c5598e2c80839e672dc91
 ```
 
 Этот образ прошит и проверен. После reboot U-Boot распаковал uImage, checksum прошел, Linux стартовал.

@@ -4,12 +4,12 @@ AIRTOOLS состоит из устройства на MT7628 с отдельн�
 
 ## Проверенная прошивка
 
-Текущий физически проверенный `mtd4`:
+Текущий релизный `mtd4` v1.2.0 (собран из HEAD; аппаратная проверка после обновления API ещё не выполнялась):
 
 ```text
-dumps\verified\mtd4_airtools_mode_signal_20260923.bin
+dumps\verified\mtd4_airtools_mips_v1.2.0.bin
 size=3866624
-sha256=145413bdc96f95bcfe59c814f396ee1f0f45a4d3f8c6a08e37cf44e7de59c6ef
+sha256=4013eb9415de5082c8c34343f093f50f77b99c2cfd8c5598e2c80839e672dc91
 ```
 
 Проверено на реальном устройстве: boot, management AP, TCP/8088, автоматический discovery scan, channel hopping 1..13, RSSI из radiotap, сортировка Android по уровню сигнала, атомарный переход scan -> capture, фильтрация capture по BSSID/channel, возврат capture -> scan и восстановление экрана Android по `/status` после перезапуска приложения.
